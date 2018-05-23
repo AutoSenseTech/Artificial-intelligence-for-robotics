@@ -154,4 +154,4 @@ pinit = 1.0 / float(len(colors)) / float(len(colors[0]))
 p = [[pinit for row in range(len(colors[0]))] for col in range(len(colors))]
 q = [[0.for row in range(len(colors[0]))] for col in range(len(colors))]
 p = localize(colors, measurements, motions, sensor_right=0.7, p_move=0.8)
-show(p)  # displays your answer
+show(p)  # displays
